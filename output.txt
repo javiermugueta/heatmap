@@ -1,43 +1,27 @@
-Session alterado.
-
-CON_NAME 
-------------------------------
-PDB1
-
-Session alterado.
-
-NAME     TYPE   VALUE 
--------- ------ ----- 
-heat_map string ON    
-
-268,435,936 filas insertadas.
-
-Confirmación terminada.
-
-C                                                                                                                                                                                                                                                               
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-hola
-hola
-
 
 TRACK_TI OBJECT_NAME          N_SEGMENT_WRITE N_FULL_SCAN N_LOOKUP_SCAN
 -------- -------------------- --------------- ----------- -------------
-11/10/20 T2                                13          20             0
+11/10/20 T2                                 0           1             0
+11/10/20 T3                                 0           3             0
 
 
 SUBSTR(OBJECT_NAME,1 SUBSTR(SUBOBJECT_NAM TRACK_TI SEG FUL LOO
 -------------------- -------------------- -------- --- --- ---
-T2                                        11/10/20 YES YES NO 
+T3                                        11/10/20 NO  YES NO 
+T2                                        11/10/20 NO  YES NO 
 
 
 SUBSTR(OBJECT_NAME,1 SUBSTR(SUBOBJECT_NAM SEGMENT_ SEGMENT_ FULL_SCA LOOKUP_SCAN                
 -------------------- -------------------- -------- -------- -------- ---------------------------
 T2                                        11/10/20 11/10/20 11/10/20                            
+T3                                                 11/10/20 11/10/20                            
 
 
 SUBSTR(OBJECT_NAME,1 SUBSTR(SUBOBJECT_NAM TRACK_TI SEG FUL LOO
 -------------------- -------------------- -------- --- --- ---
 T2                                        11/10/20 YES YES NO 
+T2                                        11/10/20 NO  YES NO 
+T3                                        11/10/20 NO  YES NO 
 
 
 SUBSTR(OWNER,1,20)   SUBSTR(OBJECT_NAME,1 OBJECT_TYPE        SUBSTR(TABLESPACE_NA SEGMENT_COUNT
@@ -59,3 +43,4 @@ USERS                            2
   COUNT(*)
 ----------
          1
+
