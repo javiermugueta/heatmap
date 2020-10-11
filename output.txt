@@ -1,0 +1,61 @@
+Session alterado.
+
+CON_NAME 
+------------------------------
+PDB1
+
+Session alterado.
+
+NAME     TYPE   VALUE 
+-------- ------ ----- 
+heat_map string ON    
+
+268,435,936 filas insertadas.
+
+Confirmación terminada.
+
+C                                                                                                                                                                                                                                                               
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+hola
+hola
+
+
+TRACK_TI OBJECT_NAME          N_SEGMENT_WRITE N_FULL_SCAN N_LOOKUP_SCAN
+-------- -------------------- --------------- ----------- -------------
+11/10/20 T2                                13          20             0
+
+
+SUBSTR(OBJECT_NAME,1 SUBSTR(SUBOBJECT_NAM TRACK_TI SEG FUL LOO
+-------------------- -------------------- -------- --- --- ---
+T2                                        11/10/20 YES YES NO 
+
+
+SUBSTR(OBJECT_NAME,1 SUBSTR(SUBOBJECT_NAM SEGMENT_ SEGMENT_ FULL_SCA LOOKUP_SCAN                
+-------------------- -------------------- -------- -------- -------- ---------------------------
+T2                                        11/10/20 11/10/20 11/10/20                            
+
+
+SUBSTR(OBJECT_NAME,1 SUBSTR(SUBOBJECT_NAM TRACK_TI SEG FUL LOO
+-------------------- -------------------- -------- --- --- ---
+T2                                        11/10/20 YES YES NO 
+
+
+SUBSTR(OWNER,1,20)   SUBSTR(OBJECT_NAME,1 OBJECT_TYPE        SUBSTR(TABLESPACE_NA SEGMENT_COUNT
+-------------------- -------------------- ------------------ -------------------- -------------
+SYS                  T2                   TABLE              USERS                            1
+SYS                  T1                   TABLE              USERS                            1
+
+
+SUBSTR(TABLESPACE_NA SEGMENT_COUNT
+-------------------- -------------
+USERS                            2
+
+
+  COUNT(*)
+----------
+         2
+
+
+  COUNT(*)
+----------
+         1
